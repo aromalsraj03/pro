@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
 
   return (
-    <div>
+    <div className='navbar'>
         <Box sx={{ flexGrow: 1 }}>
       <AppBar
       position="static"
@@ -51,7 +51,7 @@ const Navbar = () => {
               Login | Sign Up
             </Link>
           </Button>
-          <Button
+          {/*<Button
            variant='outlined'
            color='inherit'
            style={{ margin: "0px 3px 0px 10px", fontSize: "14px", color: "red" }}
@@ -61,7 +61,7 @@ const Navbar = () => {
             >
               Admin
             </Link>
-          </Button>
+  </Button>*/}
         </Toolbar>
       </AppBar>
         </Box>

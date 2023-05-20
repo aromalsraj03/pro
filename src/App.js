@@ -12,7 +12,7 @@ import Requestform from './components/Requestform';
 function App() {
   return (
     <div className="App">
-      {/* <BrowserRouter>
+       <BrowserRouter>
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />}></Route>
@@ -21,10 +21,10 @@ function App() {
         <Route path='/Donarlist' element={<Donarlist />}></Route>
         <Route path='/Requestform' element={<Requestform />}></Route>
        
-        <Route path='/Adminlogin' element={<Adminlogin />}></Route>
+       {/*} <Route path='/Adminlogin' element={<Adminlogin />}></Route>*/}
       </Routes>
-  </BrowserRouter> */}
-      <Userdashboard />
+  </BrowserRouter> 
+      {/*<Userdashboard />*/}
     </div>
   );
 }
